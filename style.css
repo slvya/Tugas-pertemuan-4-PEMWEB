@@ -1,0 +1,226 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+hr{
+  color: white !important;
+  border:1px solid #656363 !important;
+}
+
+.Line {
+  border: 1px solid #656363 !important;
+  width: 100%;
+  color: white
+}
+ 
+.home-background{
+  background:url("background.jpg");
+  width: 100%;
+  height: 638px;
+  margin: 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 45px;
+}
+.logo{
+   color: #b1d22d ;
+   font-size: 33px;
+   line-height: 80px;
+   padding: 0px;
+   font-weight: bold;
+}
+.Header-top{
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+}
+nav {
+  background:transparent;
+  height: 80px;
+  width: 100%;
+}
+nav ul {
+  float: right;
+  margin-top: 6px;
+ }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px;
+  }
+  nav ul li a{
+    color: #fff !important;
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 8px;
+    text-decoration-line:none !important; 
+  }
+nav ul li a.active,nav ul li a:hover{
+  background:#b1d22d;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 0px;
+  cursor: pointer;
+  display: none;
+}
+ 
+#check{
+  display: none;
+}
+@media (max-width: 990px){
+    .logo{
+      font-size: 30px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background: black;
+      top: 72px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+      z-index: 1;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background:#b1d22d;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .top-con{
+      max-width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    .Top_Most,.Line{
+      display: none;
+    }
+     
+
+}
+.main-text{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 320px;
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 40px;
+  font-weight: 700;
+}
+.main-text-two{
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 25px;
+  font-weight: 300;
+}
+#HISTORY{
+  margin-top: 40px;
+}
+.s-name h2{
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  margin:80px 0px 18px 0px;
+}
+.small-line{
+  border:0.5px solid #212020;
+  display: block;
+  margin: auto;
+  margin-bottom: 85px;
+  width: 75px;
+}
+ 
+h4{
+  color: black;
+  text-align: center;
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+p{
+  font-family:'Roboto',sans-serif;
+  text-align: center;
+  font-size:16px;
+  font-style: italic;
+}
+
+#about{
+  background-color: #102128;
+  margin-top: 79px;
+  color: white;
+}
+
+#about .container{
+  width: 100%;
+  padding: 55px;
+}
+
+#about .container.footer .col-lg-6.col-md-6.col-sm-12.col-xs-12{
+  font-family:petitamedium;
+  color:#eee;
+}
+
+.input-group.input-group-lg{
+  margin-top:23px;
+}
+
+#icon{
+  color:white;
+  font-size:37px;
+  margin-top:20px;
+  position:static;
+}
+
+#icon i.fa.fa-facebook-official{
+  margin-left:17px;
+}
+
+#icon i.fa.fa-twitter-square{
+  margin-left:17px;
+}
+
+#icon i.fa.fa-youtube-play{
+  margin-left:17px;
+}
+
+#kaki{
+  color: rgb(40,78,94);
+  background-color: #0f1517;
+}
+
+
